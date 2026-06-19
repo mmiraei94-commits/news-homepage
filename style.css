@@ -1,0 +1,40 @@
+:root {
+    --clr-primary-200: hsl(35, 77%, 62%);
+    --clr-primary-400: hsl(5, 85%, 63%);
+    --almost-white: #fffdfa;
+    --clr-neutral-100: hsl(36, 100%, 99%);
+    --clr-neutral-400: hsl(233, 8%, 79%);
+    --clr-neutral-700: hsl(236, 13%, 42%);
+    --clr-neutral-900: hsl(240, 100%, 5%);
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fs-56: 3.5rem;
+  
+}
+@font-face {
+    font-family: "inter";
+    src: url(fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin: 32px 21px 28px 21px;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 55px;
+}
+h1 {
+    font-weight: var(--fw-800);
+    font-size: var(--fs-56);
+}
